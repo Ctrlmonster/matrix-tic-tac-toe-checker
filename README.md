@@ -15,9 +15,9 @@ since there exist completely unhinged solutions
 
 This solution is still understandable if you think it through, starting
 by the fact that the equation `(2 * b - a) === c` finds all correct solutions,
-but includes some false positives (a, b, c being the selected cells in sorted order).
-Extending this logic to the matrix indices after sorting the entries by
-each index separately filters out all false positives.
+but includes some false positives (a, b, c being the selected – numerically labelled – cells in some sorted order).
+Applying this criterion to both matrix indices, after sorting the entries by 
+each index separately, filters out all false positives and only leaves the correct ones.
 
 Character wise this solution still ends up pretty short if you go ham on variable names (~100 characters).
 
