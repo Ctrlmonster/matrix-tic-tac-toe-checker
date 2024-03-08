@@ -3,9 +3,9 @@ Really short algorithm to verify Tic-Tac-Toe solutions, by viewing the board as 
 with each cell having (i, j) coordinates. 
 
 ```js
- // expects selected cells like this: [{i: 1 ,j: 2},{i: 2 ,j: 1}, {i: 3 ,j: 3}];
- const [a,b,c] = fields.sort((a,b) => a.j - b.j).sort((a,b) => a.i - b.i)
- return isWin = (2*b.i-a.i === c.i) && (2*b.j-a.j === c.j);
+ // expects selected cells like this: [{i: 1 ,j: 2}, {i: 2 ,j: 1}, {i: 3 ,j: 3}];
+ const [a,b,c] = fields.sort((a, b) => a.j - b.j).sort((a, b) => a.i - b.i);
+ return isWin = (2 * b.i - a.i === c.i) && (2 * b.j - a.j === c.j);
 ```
 
 Not the absolute shortest solution character wise, 
