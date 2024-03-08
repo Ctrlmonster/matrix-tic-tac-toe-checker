@@ -1,5 +1,5 @@
 # Matrix Tic-Tac-Toe Solution Checker
-Really short algorithm to verify Tic-Tac-Toe solutions, by viewing the board as 3x3 matrix
+Really short algorithm to verify Tic-Tac-Toe solutions, by viewing the board as a 3x3 matrix
 with each cell having (i, j) coordinates. 
 
 ```js
